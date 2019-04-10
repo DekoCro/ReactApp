@@ -1,0 +1,54 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.result-box ,
+.event-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 40vh;
+    width: 40%;
+}
+.result-box .results {
+    margin: .5em;
+}
+.results {
+    font-size: 2rem;
+    margin: 0;
+    color: #22283B;
+}
+.location {
+    color: #A0BCBD;
+}
+.temp {
+    color: #4E6370;
+}
+.wind {
+    color: #C1CDD2;
+}
+.cloud {
+    color: #22283B;
+}
+.error { 
+    font-size: 2em;
+    color: red;
+    padding: 2em;
+}
+h3 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    margin: 0 0 .5em 0;
+    color: #22283B;
+}
+.event-info {
+    height: 5em;
+    overflow: scroll;
+    padding: .2em;
+}
+.event-date {
+    color: #4E6370;
+    text-decoration: underline;
+}

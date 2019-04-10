@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+input {
+    border: none;
+    border-bottom: 3px solid #4E6370;
+    width: 30%;
+    font-size: 1.2em;
+    background: transparent;
+    color: #E6F0EF;
+}
+button {
+    border: none;
+    width: 25%;
+    font-size: 1.2em;
+    padding: .5em;
+    color: #E6F0EF;
+    background-color: #4E6370;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.6;
+}
